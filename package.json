@@ -1,0 +1,31 @@
+{
+  "author": {
+    "name": "Yuki Akiyama",
+    "email": "you2197901 [at] gmail.com"
+  },
+  "name": "munin-agent",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "munin-plugin" : ""
+  },
+  "description": "munin agent",
+  "main": "index.js",
+  "devDependencies": {
+    "mocha": ""
+  },
+  "scripts": {
+    "test": "mocha test/normal"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/you21979/node-munin-agent.git"
+  },
+  "keywords": [
+    "munin"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/you21979/node-munin-agent/issues"
+  }
+}
